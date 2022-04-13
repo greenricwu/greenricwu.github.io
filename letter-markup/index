@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Rikki Green">
-        <Title>Awesome scient application correspondance</title>
+        <Title>Awesome scient application correspondence</title>
         <style>
             html { 
                 Font-size:16px;
@@ -35,11 +35,7 @@
         </style>
     </head>
     <body>
-    </body>
-</html>
-
-
-Dr. Eleanor Gaye
+    Dr. Eleanor Gaye
 Awesome Science faculty
 University of Awesome
 Bobtown, CA 99999,
@@ -102,3 +98,7 @@ Yours sincerely,
 Dr Eleanor Gaye
 
 University of Awesome motto: "Be awesome to each other." -- Bill S Preston, Esq
+    </body>
+</html>
+
+
