@@ -34,7 +34,7 @@ body {
 }
 main {
     background-color:#ddd;
-    background-image:url(images/wrinkled-white-paper-background.jpg);
+    background-image:url( /wanted-poster/images/wrinkled-white-paper-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border:1px solid #333;
@@ -93,7 +93,7 @@ h4 {
     font-weight: normal;
     padding-bottom: 1.125rem;
     text-align:center;
-        }
+}
 h5 {
     font-size: 1rem;
     margin-top: 0.25rem;
@@ -102,8 +102,6 @@ h5 {
     color: #fff;
     font-weight: normal;
     text-align: center;
-
-        
 }
 
 
