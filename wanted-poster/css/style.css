@@ -76,7 +76,7 @@ h2 {
 }
 h3 {
     text-transform: uppercase;
-    color: #000
+    color: #000;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     font-size: 2rem;
