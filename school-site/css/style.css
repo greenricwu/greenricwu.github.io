@@ -81,14 +81,14 @@ header, footer {
 
     @font-face {
         font-family: montserrat;
-        src:url('/fonts/montserrat-regular.ttf') format('truetype');
+        src:url('..fonts/montserrat-regular.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
     
     @font-face{
         font-family: josefinslab;
-        src:url('/fonts/josefinslab-regular.ttf') format('truetype');
+        src:url('../fonts/josefinslab-regular.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
@@ -190,7 +190,14 @@ header, footer {
     }
 
     nav a:focus, nav a:hover{
+        color: #fff;
+        background-color: #33658A;
 
+    }
+
+    nav a:active {
+        color: #fff;
+        background-color: #000;
     }
     footer {
         text-align:center;
