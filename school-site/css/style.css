@@ -105,12 +105,42 @@ header, footer {
         letter-spacing: 0.125rem;
     }
 
-    h1  
+    h1  {
+        font-size: 3.75rem;
+        margin:1.125rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+
+    }
+
+    h2 + p {
+        font-size: 0.75rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+        letter-spacing: 0.03125rem;
+        word-spacing: 0.125rem;
+    }
+
+    li {
+        font-size: 0.75rem;
+        letter-spacing: 0.03125rem;
+        word-spacing: 0.125rem;
+    }
+
+    figcaption {
+        font-size: 0.75rem;
+        margin-bottom: 2rem;
+    }
 
 
-/* Link Styling */
+    /* Link Styling */
 
-
+    a
 
 
 
@@ -130,9 +160,4 @@ header, footer {
 
 
 /* Footer Styles */
-
-
-
-
-
-
+>
