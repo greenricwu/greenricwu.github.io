@@ -98,7 +98,7 @@ figcaption {
 
 nav {
     float: top;
-    width:0;
+    width:auto;
 }
 
 footer {
