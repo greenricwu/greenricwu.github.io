@@ -78,3 +78,6 @@ h1{
     color:#3333;
     font-family: "roboto condensed", sans-serif
 }
+h1 span {
+    color:darkred
+}
