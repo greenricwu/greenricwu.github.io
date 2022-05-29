@@ -212,6 +212,7 @@ header, footer {
         letter-spacing: 0.03125rem;
         word-spacing: 0.125rem;
         display: inline;
+        float: left;
     }
 
     figcaption {
