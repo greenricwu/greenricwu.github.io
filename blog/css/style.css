@@ -58,11 +58,11 @@ html {
 }
 
 body {
-    max: width 1200px;
+    max-width: width 1200px;
     margin: 0 auto;
     width: 70%;
     padding: 1rem 2rem;
-    font-family: lato, sans-serif;
+    font-family: "lato", sans-serif;
     min-width: 56.25rem;
 }
 
@@ -73,5 +73,8 @@ header {
 }
 
 h1{
-    
+    font-size: 6rem;
+    font-weight:100;
+    color:#3333;
+    font-family: "roboto condensed", sans-serif
 }
