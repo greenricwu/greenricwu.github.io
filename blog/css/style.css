@@ -231,7 +231,7 @@ header, footer {
     }
 
     a:focus, a:hover {
-        text-decoration: ;
+        text-decoration: none;
     }
 
 
@@ -261,7 +261,7 @@ header, footer {
 
     nav a {
         text-decoration: none;
-        display: inline-block;
+        display: inline;
         width: 100%;
         line-height: 3;
         text-align: center;
