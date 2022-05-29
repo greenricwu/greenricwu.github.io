@@ -113,24 +113,27 @@ section, aside, nav, footer {
 /* header and footer */
 
 header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
+  border-top: .125rem solid #4b0202;
+  border-bottom: .125rem solid #4b0202;
 }
 
-/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
-
-/* NO changes should be made to any of the code above. */
-
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
-   may need to be different in order to style the page correctly. */
-
-
-
-/* Imported Typfaces */
+    @font-face {
+        font-family: sans-serif;
+        src:url('/fonts/sans-serif/lato-regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
 
     @font-face {
-        font-family: montserrat;
-        src:url('..fonts/montserrat-regular.ttf') format('truetype');
+        font-family: sans-serif;
+        src:url('/fonts/sans-serif/montserrat-regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: sans-serif;
+        src:url('/fonts/sans-serif/lato-regular.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
