@@ -97,7 +97,7 @@ figcaption {
 }
 
 nav {
-    float: left;
+    float: top;
     width:11.25rem;
 }
 
@@ -133,17 +133,46 @@ header, footer {
 
     @font-face {
         font-family: sans-serif;
-        src:url('/fonts/sans-serif/lato-regular.ttf') format('truetype');
+        src:url('/fonts/sans-serif/opensans-regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: sans-serif;
+        src:url('/fonts/sans-serif/roboto-regular.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
     
     @font-face{
-        font-family: josefinslab;
-        src:url('../fonts/josefinslab-regular.ttf') format('truetype');
+        font-family: serif;
+        src:url('/fonts/serif/josefinslab-regular.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
+
+    @font-face{
+        font-family: serif;
+        src:url('../fonts/serif/robotoslab-regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face{
+        font-family: serif;
+        src:url('../fonts/serif/rozhaone-regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face{
+        font-family: serif;
+        src:url('../fonts/serif/ultra-regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
 
 
 /* Typography Styles */
