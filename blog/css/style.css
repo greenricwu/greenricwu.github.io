@@ -111,21 +111,29 @@ img {
    
 div {
         float: left;
+        display: flex;
+        justify-content: center;
         padding: 15px; 
 }
 
 .div1 {
-          float: center;
-          padding: inline;
+        float: center;
+        display: flex;
+        justify-content: space-evenly;
+        padding: inline;
 }
       
 .div2 {
         float: center;
+        display: flex;
+        justify-content: space-evenly;
         padding: inline; 
 }
       
 .div3 {
         float: center;
+        display: flex;
+        justify-content:space-evenly;
         padding: inline; 
 }
 
@@ -142,13 +150,8 @@ div {
     padding-left: 20px;
 }
   
- 
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
-  
+
+
   
  .card {
     background-color: white;
