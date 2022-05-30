@@ -132,11 +132,12 @@ h1 {
     font-family:'Courier New', Courier, monospace;
     border: 1px solid black;
     padding: 1rem 0rem;
-    background-color: #3c4725;
     border-radius: 0.3rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     color:antiquewhite;
+    background-color: #3c4725;
+    box-shadow: 5px 5px 4px -1px #888;
 }
 
 /* General Setup */
@@ -177,7 +178,15 @@ article {
 aside {
     grid-column: 2 / 3;
     grid-row: 1;
+    border-left: .025rem solid black;
+    padding-left: 0.75rem;
 }
+
+aside p {
+    border-bottom: .025rem solid black;
+    padding-bottom: 1rem;
+}
+
 
 .subsection {
     display: flex;
@@ -210,4 +219,18 @@ figure {
 
 .subsection figure figcaption {
     padding: 0.5rem 0.5rem;
+}
+/*Links and Navigation */
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1.25rem 2rem;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    color:#262626;
 }
