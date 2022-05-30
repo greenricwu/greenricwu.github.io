@@ -90,11 +90,17 @@ figure {
 
 article image {
     float: left;
-    Width: 
+    Width: 200px;
+    height: 300px;
 }
 
-figcaption {
-
+figcaption {    
+    font-size:.75rem;
+    padding:.5rem;
+    margin:0;
+    background-color:#6bac96;
+    color:#031412;
+    float:inline-start
 }
 nav {
     float: left;
