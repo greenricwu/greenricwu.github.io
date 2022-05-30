@@ -179,3 +179,142 @@ section, sub section, nav, footer {
 
 /*typography styles*/
 
+html {
+    font-family: montserrat, Arial, sans-serif;
+}
+
+h1, h2 {
+    font-family: josefinslab, Georgia, serif;
+    letter-spacing: 0.125rem;
+}
+
+h1  {
+    font-size: 3.75rem;
+    margin:1.125rem;
+    text-align: center;
+    span: 
+}
+
+h2 {
+    font-size: 1.5rem;
+
+}
+
+h2 + p {
+    text-indent: 1.5rem;
+}
+
+p {
+    font-size: 0.75rem;
+    letter-spacing: 0.03125rem;
+    word-spacing: 0.125rem;
+}
+
+li {
+    font-size: 0.75rem;
+    letter-spacing: 0.03125rem;
+    word-spacing: 0.125rem;
+}
+
+figcaption {
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
+/* Image & Figure */
+
+img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+figure {
+    margin-bottom: 2rem;
+}
+
+figcaption {
+    padding-top: 0.5rem;
+    text-align: right;
+}
+
+h4>span {
+    padding: 0 0.5rem;
+    }
+/* Headings  */
+
+h1 {
+    text-transform: regular;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:rgb(7, 6, 6);
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'roboto-regular', sans-serif;
+    text-align:center;
+    text-align: var(-5deg
+    );
+}
+h2 {
+    text-transform: uppercase;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'sans', Garamond, serif;
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+    text-align:center;
+    font-weight: normal;
+}
+h3 {
+    text-transform: uppercase;
+    color: #000;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    font-size: 2rem;
+    text-align:center;
+    font-weight: normal;
+}
+h4 {
+    text-transform: uppercase;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+    font-weight: normal;
+    padding-bottom: 1.125rem;
+    text-align:center;
+}
+h5 {
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+ /* navigation bar*/
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
