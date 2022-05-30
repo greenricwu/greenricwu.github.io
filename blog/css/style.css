@@ -70,9 +70,7 @@ header {
     border-bottom: .0625rem solid #3333;
     margin-bottom:4rem;
     padding-bottom: 2rem;
-    -webkit-transform: rotate(-12deg);
-    -moz-transform: rotate(-12deg);
-    -o-transform: rotate(-12deg);
+    transform: rotate(-12deg);
     writing-mode: lr-tb;
 }
 
