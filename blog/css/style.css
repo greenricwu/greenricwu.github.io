@@ -67,10 +67,10 @@ body {
 }
 
 header {
-    border-bottom: .0625rem solid #3333;
+    
     margin-bottom:4rem;
     padding-bottom: 2rem;
-    transform: rotate(-12deg);
+    transform: rotate(-5deg);
     writing-mode: lr-tb;
 }
 
@@ -90,6 +90,8 @@ nav {
 
 ul {
     list-style-type: none;
+    border-top: .0625rem solid #3333;
+    border-bottom:.0625rem solid #3333;
     margin: 0;
     padding: 0;
   }
