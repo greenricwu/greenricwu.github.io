@@ -109,51 +109,52 @@ img {
     float: left;
 }
    
-    div {
+div {
         float: left;
         padding: 15px; 
-      }
- 
-      .div1 {
+}
+
+.div1 {
           float: center;
           padding: inline;
-        }
+}
       
-      .div2 {
+.div2 {
         float: center;
         padding: inline; 
-    }
+}
       
-    .div3 {
+.div3 {
         float: center;
         padding: inline; 
-    }
+}
+
 .leftcolumn {   
     float: left;
     width: 75%;
-  }
+ }
   
  
-  .rightcolumn {
+.rightcolumn {
     float: left;
     width: 25%;
     background-color: #f1f1f1;
     padding-left: 20px;
-  }
+}
   
  
-  .fakeimg {
+.fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
   }
   
   
-  .card {
+ .card {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
-  }
+ }
   
   
   .row:after {
