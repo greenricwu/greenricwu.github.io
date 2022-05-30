@@ -88,6 +88,12 @@ nav {
     margin-top: 0.25rem;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
 nav a {
     text-decoration: none;
     display: inline;
