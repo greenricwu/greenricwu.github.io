@@ -122,7 +122,58 @@ section, sub section, nav, footer {
 /* Imported Typeface*/
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: sans-serif;
+    src: url('fonts/sans-serif/lato-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: sans-serif;
+    src: url('fonts/sans-serif/montserrat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: sans-serif;
+    src: url('fonts/sans-serif/opensans-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: sans-serif;
+    src: url('fonts/sans-serif/roboto-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: serif;
+    src: url('fonts/serif/josefinslab-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: serif;
+    src: url('fonts/serif/robotoslab-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: serif;
+    src: url('fonts/serif/rozhaone-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: serif;
+    src: url('fonts/serif/ultra-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+
+/*typography styles*/
 
