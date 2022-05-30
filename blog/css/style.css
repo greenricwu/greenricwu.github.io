@@ -174,3 +174,25 @@ div {
     object-fit: cover;
     object-position: 15% 100%;
   }
+
+/* Imported Typefaces*/
+
+@font-face {
+    font-family: sans-serif;
+    src:url('..fonts/sans-serif/lato-regular.ttf'); format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: sans-serif;
+    src:url('..fonts/sans-serif/montserrat-regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: sans-serif;
+    src:url('..fonts/sans-serif/opensans-regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
