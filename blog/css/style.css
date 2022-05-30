@@ -59,44 +59,41 @@ html {
     font-size: 16px;
 }
 
+header {
+    padding-bottom: 3.5rem;
+}
 body {
-    margin: 1.5rem auto;
+    margin: 1.5 rem;
     width: 90%;
-    min-width: auto;
+    min-width:56.25rem;
 }
 
 /* Layout */
 
 main {
     overflow:auto;
-    min-width: 45rem;
-    columns: 2;
+    columns:  2;
 
-}
-
+    }
 main section {
     float: left;
-    width:50%;
-    min-width: 42.18rem;
-    column-width: 1;
-    margin-right: auto;
+    width:90%;
+    min-width: auto;
+    padding: 40px;
 }
 
-sub section {
-   float: right;
+aside {
+   float: bottom;
+   float: inline-end;
    width: 25%;
    min-width: 14.07rem;
+   padding: 40px;
 }
 
-figure {
-    width: 50%;
-    margin: 0 10% 0 0;
-    float: left;
-}
 
 article image {
     float: left;
-    Width: 50px;
+    Width: 200px;
     height: 300px;
 }
 
@@ -111,6 +108,12 @@ figcaption {
 nav {
     float: left;
     width: auto;
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 footer {
@@ -214,51 +217,43 @@ h1 span {
 }
 
 h2 {
-    font-size: 1.5rem;
-
-}
-
-h2 + p {
-    text-indent: 1.5rem;
+    font-size: ;
+    margin:1.125rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p {
-    font-size: 0.75rem;
-    letter-spacing: 0.03125rem;
-    word-spacing: 0.125rem;
+    font-size: 1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
 }
 
-li {
-    font-size: 0.75rem;
+h3 {
+    font-size: 3.75rem;
+    margin:1.125rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav a{
+    font-size: 18px;
     letter-spacing: 0.03125rem;
     word-spacing: 0.125rem;
+    font-weight: bold;
+    color:black
+}
+nav a:hover {
+    text-decoration-line: line-through;
     text-transform: uppercase;
-    transform: rotate(.5deg);
+    transform: rotate(10deg);
 }
-span {
-
-}
-
 figcaption {
     font-size: 0.75rem;
     margin-bottom: 2rem;
 }
 /* Image & Figure */
 
-img {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 50rem;
-}
-
-figure {
-    margin-bottom: 2rem;
-}
-
-figcaption {
-    padding-top: 0.5rem;
-    text-align: right;
-}
 
 
 /* Headings  */
@@ -270,24 +265,23 @@ h1 {
     letter-spacing: .5rem;
     color:rgb(7, 6, 6);
     text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif
     text-align:center;
     text-align: var(-5deg
     );
 }
 h2 {
     text-transform: regular;
+    font-size: 1.5rem;
     color:rgb(5, 4, 4);
     font-family:'roboto-regular',sans-serif, sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: 0.25rem;
+    letter-spacing: normal;
     text-align:left;
     font-weight: bold;
 }
 h3 {
     text-transform: regular;
     color: #000;
-    text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'ultra-regular',serif, serif;
     font-size: 2rem;
     text-align: justify;
@@ -303,8 +297,7 @@ h3 {
      display: inline-block;
      padding: 8px;
      background-color: white;
-     border-top: #000;
-     border-bottom: #000;
-     ;
+    font-size: 17px;
+
 
  }
