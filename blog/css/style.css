@@ -70,6 +70,10 @@ header {
     border-bottom: .0625rem solid #3333;
     margin-bottom:4rem;
     padding-bottom: 2rem;
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    writing-mode: lr-tb;
 }
 
 h1{
@@ -94,16 +98,5 @@ nav a {
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    border: 0.0625rem solid #33658A;
-}
-
-nav a:focus, nav a:hover{
-    color: #fff;
-    background-color: #33658A;
-
-}
-
-nav a:active {
-    color: #fff;
-    background-color: #000;
+    
 }
