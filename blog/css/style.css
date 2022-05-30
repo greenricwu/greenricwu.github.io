@@ -72,19 +72,19 @@ body {
     grid-template-columns: 4fr 1fr;
     grid-gap: 1rem;
 }
+
 article {
     grid-column: 1 / 2;
     grid-row: 1;
-
 }
+
 aside {
     grid-column: 2 / 3;
     grid-row: 1;
 }
 
-.subsection
- {
-    display:flex;
+.subsection {
+    display: flex;
 }
 
 /*Images and Figures  */
@@ -94,14 +94,19 @@ img {
 
 figure {
     margin: 0px;
-
 }
 
-article-image {
+.article-image {
     width:33%;
-    float:left;
+    float: left;
     margin-right: 1rem;
 }
+
+.subsection {
+    margin: 0rem 0.25rem;
+    
+}
+
 
 /* Imported Typeface*/
 
@@ -160,28 +165,6 @@ article-image {
 }
 
 /*typography styles*/
-
-
-
-h1 span {
-    font-size: 5.75rem;
-    margin: .125rem;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: darkolivegreen;
-    border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    color:#fff
-
-}
-
-
-/* Headings  */
-
-
-
-
-
     nav a:hover {
         text-decoration-line: line-through;
         text-transform: uppercase;
