@@ -67,7 +67,7 @@ body {
 
 /* Layout */
 
-.main section {
+.main-section {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-gap: 1rem;
@@ -104,67 +104,68 @@ figure {
 
 .subsection {
     margin: 0rem 0.25rem;
-    
+
 }
 
 
 /* Imported Typeface*/
 
 @font-face {
-    font-family: sans-serif;
+    font-family: "lato";
     src: url('fonts/sans-serif/lato-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: sans-serif;
+    font-family: "montserrat";
     src: url('fonts/sans-serif/montserrat-regular.ttf') format('truetype');
     font-weight: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: sans-serif;
+    font-family: "opensans";
     src: url('fonts/sans-serif/opensans-regular.ttf') format('truetype');
     font-weight: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: sans-serif;
+    font-family: "roboto";
     src: url('fonts/sans-serif/roboto-regular.ttf') format('truetype');
     font-weight: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: serif;
+    font-family: "josefinslab";
     src: url('fonts/serif/josefinslab-regular.ttf') format('truetype');
     font-weight: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: serif;
+    font-family: "roboto2";
     src: url('fonts/serif/robotoslab-regular.ttf') format('truetype');
     font-weight: normal;
     font-weight: normal;
 }
 @font-face {
-    font-family: serif;
+    font-family: "rozhaone";
     src: url('fonts/serif/rozhaone-regular.ttf') format('truetype');
     font-weight: normal;
     font-weight: normal;
 }
 @font-face {
-    font-family: serif;
+    font-family: "ultra";
     src: url('fonts/serif/ultra-regular.ttf') format('truetype');
     font-weight: normal;
     font-weight: normal;
 }
 
 /*typography styles*/
+
     nav a:hover {
         text-decoration-line: line-through;
         text-transform: uppercase;
