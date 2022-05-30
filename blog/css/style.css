@@ -98,3 +98,25 @@ nav a {
     margin-bottom: 1.5rem;
     
 }
+
+img {
+    float: left;
+    div {
+        float: left;
+        padding: 15px; 
+      }
+      
+      .div1 {
+          float: center;
+          padding: inline;
+        }
+      
+      .div2 {
+        float: center;
+        padding: inline; 
+    }
+      
+    .div3 {
+        float: center;
+        padding: inline; 
+    }
