@@ -61,7 +61,7 @@ html {
 
 body {
     margin: 1.5rem auto;
-    width: 75%;
+    width: 90%;
     min-width: 56.25rem;
 }
 
@@ -72,4 +72,33 @@ main {
     min-width: 45rem;
 }
 
-section
+main section {
+    float: left;
+    width: 75%;
+    min-width: 42.18rem;
+}
+
+sub section {
+   float: righ;
+   width: 25%;
+   min-width: 14.07rem;
+}
+
+figure {
+
+}
+
+article image {
+
+}
+
+figcaption {
+
+}
+nav {
+    float: left;
+    width: 11.25rem;
+}
+
+/* Imported Type
+

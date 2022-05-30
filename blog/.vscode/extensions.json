@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "searKing.preview-vscode"
+        "searking.preview-vscode",
+        "ms-vscode.live-server"
     ]
 }
