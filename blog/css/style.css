@@ -100,5 +100,22 @@ nav {
     width: 11.25rem;
 }
 
-/* Imported Type
+footer {
+    clear: both;
+    margin-top: 1.5rem;
+}
+
+section, sub section, nav, footer {
+    padding: .5rem;
+}
+
+/*header and footer */
+
+
+/* Imported Typeface*/
+
+@font-face {
+    font-family: ;
+    src: url();
+}
 
