@@ -282,15 +282,6 @@ button {
     text-transform:lowercase;
 }
 
-
-.copyright {
-    float:left
-}
-
-.links {
-    float: right;
-}
-
 .expand {
     font-size: .25rem;
 }
@@ -298,7 +289,14 @@ button {
 
 footer {
     padding: 0.5rem;
-    clear:both;
 }
 
+.copyright {
+    text-align: left;
+}
+
+.licenses {
+    text-align: right;
+    overflow: normal;
+}
 
