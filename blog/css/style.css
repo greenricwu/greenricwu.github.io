@@ -286,10 +286,6 @@ button {
     text-transform:lowercase;
 }
 
-.links {
-    float: right;
-    text-align: right;
-}
 
 .copyright {
     float:left
@@ -304,9 +300,14 @@ button {
 
 footer {
     text-align: justify;
-    padding: .5rem;
+    padding: 0.5rem;
     clear:both;
-    
 }
 
+.links {
+    padding: 0.75rem;
+    margin: 0.75rem;
+    float: right;
+    text-align: right;
+}
 
