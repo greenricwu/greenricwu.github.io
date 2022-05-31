@@ -208,10 +208,6 @@ aside h3 {
     font-size:1rem;
 }
 
-aside #x26AB {
-    font-size: .25rem;
-}
-
 .subsection {
     display: flex;
 }
@@ -244,6 +240,7 @@ figure {
 .subsection figure figcaption {
     padding: 0.5rem 0.5rem;
     text-align: center;
+    font-weight: 1000;
 }
 
 /*Links and Navigation */
@@ -281,7 +278,6 @@ button {
     border-radius: 1rem;
     color:whitesmoke;
     background-color: #3c4725;
-
     width: 10rem;
     text-transform:lowercase;
 }
@@ -291,23 +287,18 @@ button {
     float:left
 }
 
+.links {
+    float: right;
+}
+
 .expand {
-    color: #262626;
-    text-align: center;
     font-size: .25rem;
 }
 /* footer */
 
 footer {
-    text-align: justify;
     padding: 0.5rem;
     clear:both;
 }
 
-.links {
-    padding: 0.75rem;
-    margin: 0.75rem;
-    float: right;
-    text-align: right;
-}
 
