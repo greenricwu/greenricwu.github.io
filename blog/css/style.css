@@ -123,8 +123,8 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 6.5rem;
-    letter-spacing: 0.45rem;
-    word-spacing: 5rem;
+    letter-spacing: 0.65rem;
+    word-spacing: 3rem;
     transform: rotate(-5deg);
     
 }
@@ -132,21 +132,30 @@ h1 {
 .highlight {
     display: inline-block;
     font-family:'Courier New', Courier, monospace;
-    border: 2px solid black;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     border-radius: 0.3rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    color:antiquewhite;
+    color:whitesmoke;
     background-color: #3c4725;
     box-shadow: 5px 5px 4px -1px #888;
 }
 
 figcaption {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
+    font-size: .75rem;
 }
 
+a:link {
+    color:#262626;
+}
+a:visited {
+    color:#C8a6a6;
+}
+
+footer {
+    margin-top: 5rem;
+}
 
 /* General Setup */
 *{
@@ -197,7 +206,6 @@ aside p {
 aside h3 {
     text-align: center;
     font-size:1rem;
-    font-weight:;
 }
 
 aside #x26AB {
@@ -267,12 +275,38 @@ nav {
 
 button {
     font-family:'Courier New', Courier, monospace;
-    border: 2px solid black;
+    font-size: 1.45rem;
+    font-weight: 900;
     padding: 1rem 1rem;
-    border-radius: 0.3rem;
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    color:antiquewhite;
+    border-radius: 1rem;
+    color:whitesmoke;
     background-color: #3c4725;
-    box-shadow: 5px 5px 4px -1px #888;
+
+    width: 10rem;
+    text-transform:lowercase;
 }
+
+.links {
+    float: right;
+    text-align: right;
+}
+
+.copyright {
+    float:left
+}
+
+.expand {
+    color: #262626;
+    text-align: center;
+    font-size: .25rem;
+}
+/* footer */
+
+footer {
+    text-align: justify;
+    padding: .5rem;
+    clear:both;
+    
+}
+
+
